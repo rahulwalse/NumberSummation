@@ -139,7 +139,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AlternateSignedSequence.cpp" />
+    <ClCompile Include="AlternateSignedSequenceSummation.cpp" />
+    <ClCompile Include="AverageOfNumbers.cpp" />
+    <ClCompile Include="GenerateSequence.cpp" />
+    <ClCompile Include="HarmonicMean.cpp" />
     <ClCompile Include="NumberSummation.cpp" />
+    <ClCompile Include="SequenceFour.cpp" />
+    <ClCompile Include="SequenceThree.cpp" />
+    <ClCompile Include="SequenceTwo.cpp" />
+    <ClCompile Include="SequenceOne.cpp" />
+    <ClCompile Include="SummationOfNumbers.cpp" />
+    <ClCompile Include="SummationOfNumberSequences.cpp" />
+    <ClCompile Include="SummationOfSquaredNumbers.cpp" />
+    <ClCompile Include="SummationWithLessAdditionOperations.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="summationf.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
